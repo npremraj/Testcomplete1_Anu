@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44882.1218934838"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44882.121918669"/>
+				<Prp name="details" type="S" value="{9FCBCC8A-3936-4E4B-8841-23FEF8539C40}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="Check_all [KeywordTests - Check_all]"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row0">
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44882.1218821759"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44882.1218934722"/>
+				<Prp name="details" type="S" value="{B9976485-5B24-4290-B887-F208A3F06C7E}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="Keyword Test Log [PageViewAllOrdersNavTo]"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row2">
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44882.1219188194"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44882.1219421875"/>
+				<Prp name="details" type="S" value="{9FDC8423-E7D4-4E8B-9F35-C80AF14896D1}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="Uncheck_all [KeywordTests - Uncheck_all]"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

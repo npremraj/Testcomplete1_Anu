@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{0D59E207-D87E-4517-BBCC-353D6198C437}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+	</TestData>
+	<Variables Version="4" Key="{EE073E00-F84A-4C6D-A1C3-32708C34A620}">
+		<Items>
+			<Variable Name="product" Type="String" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{727E0368-97C1-4131-BEC4-A007E8CEACED}" />
+</Root>

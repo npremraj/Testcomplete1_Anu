@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Componets">
+			<child name="MeinMenuNav" key="{3DFB903E-C3B1-4C06-A645-C75E4107EB84}" path="MeinMenuNav.tcKDTest" />
+		</folder>
+		<folder name="Pages">
+			<folder name="BasePage">
+				<child name="BasePageLogout" key="{7C6BB3C8-40D4-4B51-ADA3-8854D3521E3A}" path="BasePageLogout.tcKDTest" />
+			</folder>
+			<folder name="PageLogin">
+				<child name="Login" key="{C298DF2F-FFD6-4888-886F-0A779591B7B8}" path="Login.tcKDTest" />
+			</folder>
+			<folder name="PageOrder">
+				<child name="PageOrderNaveTo" key="{E3FF6BAC-8013-444A-9D4D-176713420045}" path="PageOrderNaveTo.tcKDTest" />
+			</folder>
+			<folder name="PageViewAllOrders">
+				<child name="PageViewAllOrdersNavTo" key="{3F071D22-BA44-4609-97BC-6E089CBAEC3D}" path="PageViewAllOrdersNavTo.tcKDTest" />
+				<child name="Check_all" key="{19C86798-902C-4764-9C02-1941F149B4B2}" path="Check_all.tcKDTest" />
+				<child name="Uncheck_all" key="{DDE17992-9F84-4669-8DA5-070A027AFD39}" path="Uncheck_all.tcKDTest" />
+			</folder>
+			<folder name="PageViewAllProducts">
+				<child name="PageViewAllProductsNavTo" key="{0EF9A6BF-3B00-4328-9CF0-4587AF27FEB8}" path="PageViewAllProductsNavTo.tcKDTest" />
+				<child name="identify_product" key="{17C4A04B-E60C-43D9-B891-49AF90F72AC9}" path="identify_product.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Tests">
+			<child name="Verifyall_orders" key="{E32B6EAD-524F-40D9-948D-665EFEF93836}" path="Verifyall_orders.tcKDTest" />
+		</folder>
+		<folder name="UtilBrowser">
+			<child name="StartEdge" key="{5674CD53-295D-4026-85D3-D072691A9273}" path="StartEdge.tcKDTest" />
+			<child name="NavEdge" key="{60EABDF5-EF99-4BAC-BB27-94C5322A4ECA}" path="NavEdge.tcKDTest" />
+			<child name="CloseEdge" key="{C49B4699-6606-4778-A369-9E424695D27F}" path="CloseEdge.tcKDTest" />
+		</folder>
+		<folder name="UtilWebBrowser" />
+	</children>
+</Root>

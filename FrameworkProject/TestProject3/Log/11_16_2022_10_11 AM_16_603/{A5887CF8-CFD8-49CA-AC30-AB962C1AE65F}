@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44881.4248648843"/>
+				<Prp name="start time" type="D" value="44881.4248446528"/>
+				<Prp name="details" type="S" value="{462B4342-3CCE-4F16-873F-C9A36AABF5F0}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="PageOrderNaveTo [KeywordTests - PageOrderNaveTo]"/>
+			</Node>
+			<Node name="row6">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44881.4249098958"/>
+				<Prp name="start time" type="D" value="44881.4249048611"/>
+				<Prp name="details" type="S" value="{D0A40A19-8F02-43B7-BF50-A53DCFD03027}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="CloseEdge [KeywordTests - CloseEdge]"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44881.4249047454"/>
+				<Prp name="start time" type="D" value="44881.4248846991"/>
+				<Prp name="details" type="S" value="{3A52E600-332B-4E4C-9A7B-4E6D537216C7}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="BasePageLogout [KeywordTests - BasePageLogout]"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44881.4248445486"/>
+				<Prp name="start time" type="D" value="44881.4247926042"/>
+				<Prp name="details" type="S" value="{F64C7D22-9B1E-4DF1-A842-FFB8DE47A3D9}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="Login [KeywordTests - Login]"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44881.4248845833"/>
+				<Prp name="start time" type="D" value="44881.4248736921"/>
+				<Prp name="details" type="S" value="{2F43CE52-7CD6-4D4E-AC6D-29D240381120}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="PageViewAllProductsNavTo [KeywordTests - PageViewAllProductsNavTo]"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44881.4247925"/>
+				<Prp name="start time" type="D" value="44881.4245061806"/>
+				<Prp name="details" type="S" value="{971552A3-F2C4-4579-989B-A8FC7A92A202}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="StartEdge [KeywordTests - StartEdge]"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44881.424873588"/>
+				<Prp name="start time" type="D" value="44881.4248651042"/>
+				<Prp name="details" type="S" value="{0FB2CC5A-E265-4CA3-957D-3F4212CF7A1A}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="PageViewAllOrdersNavTo [KeywordTests - PageViewAllOrdersNavTo]"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

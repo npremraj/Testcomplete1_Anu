@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{721A66D6-CAB7-42BB-8F32-DA8399D9BC16}">
+	<children>
+		<child name="Sample1" key="{D75B7A45-3EA7-45AC-92BA-99EA8E6E5409}" path="Sample1\Sample1.mds" />
+		<child name="TestProject1" key="{67F6065A-7BC7-4996-A75E-E4D76DE1258D}" path="TestProject1\TestProject1.mds" />
+	</children>
+	<testItems key="{FA4FE754-90B1-4F7C-9A93-FBA553AA6FD1}">
+		<children>
+			<testItem key="{D75B7A45-3EA7-45AC-92BA-99EA8E6E5409}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{67F6065A-7BC7-4996-A75E-E4D76DE1258D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0D0C2AA1-EB26-4B84-8B40-0CEEFE087A0C}" />
+	<analysis key="{2B3C72E6-5390-458C-B471-5D2E07454B93}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

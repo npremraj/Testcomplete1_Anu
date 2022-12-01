@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{B0D4A93D-068A-4ED6-A11F-8BDDF98D8754}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44841.3066898148" objectName="Aliases.notepad.wndNotepad.Edit" objectLeft="8" objectTop="51" objectRight="952" objectBottom="373" clickPointX="-584" clickPointY="-261" imageFileName="tcvi1026180000159280.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44841.3067361111" objectName="Aliases.notepad.wndNotepad.Edit" objectLeft="8" objectTop="51" objectRight="952" objectBottom="373" clickPointX="54" clickPointY="95" imageFileName="tcvi1026184375159281.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44841.3067592593" objectName="Aliases.notepad.wndNotepad.Edit" objectLeft="8" objectTop="51" objectRight="952" objectBottom="373" clickPointX="60" clickPointY="63" imageFileName="tcvi1026186093159282.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44841.3068865741" objectName="Aliases.notepad.wndNotepad" objectLeft="0" objectTop="0" objectRight="960" objectBottom="381" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1026197187159283.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44841.3069097222" objectName="Aliases.notepad.dlgNotepad.Notepad.CtrlNotifySink.btnDontSave" objectLeft="178" objectTop="101" objectRight="270" objectBottom="124" clickPointX="235" clickPointY="117" imageFileName="tcvi1026199218159284.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

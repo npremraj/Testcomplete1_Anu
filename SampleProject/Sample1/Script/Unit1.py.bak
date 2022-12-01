@@ -1,0 +1,3 @@
+﻿def sample():
+  Sys.Process("notepad").Window("Notepad", "Untitled - Notepad", 1).Keys(" Hi All")
+  
